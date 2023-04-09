@@ -9,3 +9,4 @@ n = int(input("Введите число n: "))
 m = int(input("Введите число m: "))
 k = int(input("Сколько долек хотите взять?: "))
 print(f'{n} {m} {k} -> yes' if k == n or k == m or (k % n == 0 and k / n < m) or (k % m == 0 and k / m < n) else f'{n} {m} {k} -> no')
+
